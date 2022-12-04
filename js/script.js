@@ -91,7 +91,7 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
 
   // Set the timeout duration (in seconds)
-  var timeoutDuration = 20;
+  var timeoutDuration = 10;
 
   // Set a timer to log out the user after the timeout duration
   setTimeout(function() {
