@@ -27,6 +27,7 @@ sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
 sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
+//////////////////////////////////////////////////////////////////////////////////////
 
   // Set the end time for the countdown
   var endTime = new Date("December 31, 2022 23:59:59");
@@ -53,10 +54,10 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
 
 
-
+/////////////////////////////////////////////////////////////////////////////////////
 
   // Set the timeout duration (in seconds)
-  var timeoutDuration = 10;
+  var timeoutDuration = 30;
 
   // Set a timer to log out the user after the timeout duration
   setTimeout(function() {
@@ -65,6 +66,7 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
   }, timeoutDuration * 1000);
 
 
+////////////////////////////////////////////////////////////////////////////////////
 
   // Notification message creted by javascript amd cs;javascript code  starts here//
 
@@ -94,6 +96,8 @@ setTimeout(function() {
   popup.style.opacity = 0;
 }, 5000);
 // Notification message creted by javascript amd cs;javascript code  ends here//
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       
 
 
