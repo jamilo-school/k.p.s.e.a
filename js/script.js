@@ -28,41 +28,6 @@ sr.reveal('.home-text',{delay:190, origin:'bottom'})
 sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
 
-  // Get the current time
-  var currentTime = new Date();
-
-  // Check the current hour
-  if (currentTime.getHours() < 12) {
-    // If it's before noon, display a morning greeting
-    alert("Good morning!");
-  } else if (currentTime.getHours() < 18) {
-    // If it's between noon and 6 PM, display an afternoon greeting
-    alert("Good afternoon!");
-  } else {
-    // If it's after 6 PM, display an evening greeting
-    alert("Good evening!.");
-  }
-
-
-
-
-
-  
-  // Get the current time and date
-  var currentTime = new Date();
-
-  // Format the time and date as a string
-  var timeString = currentTime.toLocaleTimeString();
-  var dateString = currentTime.toLocaleDateString();
-
-  // Display the time and date in an alert box
-  alert("Lets keep you updated.Your log in time and date is: " + timeString + " " + dateString);
-
-
-
- 
-
-
   // Set the end time for the countdown
   var endTime = new Date("December 31, 2022 23:59:59");
 
@@ -98,6 +63,38 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
     // Redirect the user to the logout page
     window.location.href = "https://jamilo-school.github.io/log-in/";
   }, timeoutDuration * 1000);
+
+
+
+  // Notification message creted by javascript amd cs;javascript code  starts here//
+
+        // Create the pop up notification
+var popup = document.createElement("div");
+popup.classList.add("popup");
+
+// Add the notification message to the pop up
+var message = document.createTextNode("We are going to log you out in 10sec💫..we need to scan your device on main sever.");
+popup.appendChild(message);
+
+// Add the pop up to the page
+document.body.appendChild(popup);
+
+// Use CSS transitions to create a smooth fade in effect
+popup.style.transition = "opacity 0.5s ease-in-out";
+popup.style.opacity = 0;
+
+
+// Show the pop up after a short delay
+setTimeout(function() {
+  popup.style.opacity = 1;
+}, 500);
+
+// Hide the pop up after a few seconds
+setTimeout(function() {
+  popup.style.opacity = 0;
+}, 5000);
+// Notification message creted by javascript amd cs;javascript code  ends here//
+      
 
 
 
