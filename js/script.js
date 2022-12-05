@@ -68,7 +68,7 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-  // Notification message creted by javascript amd cs;javascript code  starts here//
+  // Notification message on log in page created by javascript amd cs;javascript code  starts here//
 
         // Create the pop up notification
 var popup = document.createElement("div");
