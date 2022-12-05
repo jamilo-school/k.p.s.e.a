@@ -57,7 +57,7 @@ sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 /////////////////////////////////////////////////////////////////////////////////////
 
   // Set the timeout duration (in seconds)
-  var timeoutDuration = 30;
+  var timeoutDuration = 1200;
 
   // Set a timer to log out the user after the timeout duration
   setTimeout(function() {
@@ -75,7 +75,7 @@ var popup = document.createElement("div");
 popup.classList.add("popup");
 
 // Add the notification message to the pop up
-var message = document.createTextNode("We are going to log you out in 10sec💫..we need to scan your device on main sever.");
+var message = document.createTextNode("🧑‍⚕️Hello.How are you from that side?..");
 popup.appendChild(message);
 
 // Add the pop up to the page
